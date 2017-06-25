@@ -1,0 +1,23 @@
+{
+  "name": "mondadic-mongo",
+  "version": "1.0.0",
+  "description": "The repo associated with funkyjavascript.com/monadic-mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NerdcoreSteve/mondadic-mongo.git"
+  },
+  "author": "Steve Smith",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/NerdcoreSteve/mondadic-mongo/issues"
+  },
+  "homepage": "https://github.com/NerdcoreSteve/mondadic-mongo#readme",
+  "dependencies": {
+    "data.task": "^3.1.1",
+    "mongodb": "^2.2.29"
+  }
+}
