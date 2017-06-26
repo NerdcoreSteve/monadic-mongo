@@ -5,6 +5,7 @@ chain the whole sequence for the "Now I'm going to insert a collection (initiali
         That way I can db.close in fork
     It bothers me that I'm calling fold from inside a new task, shouldn't I be doing a traverse?
     Extract mongo functions into module and import it here
+    is mongoTask built like it ought?
 */
 const  
     {MongoClient} = require('mongodb'),
