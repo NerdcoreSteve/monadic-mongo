@@ -6,6 +6,7 @@ chain the whole sequence for the "Now I'm going to insert a collection (initiali
     It bothers me that I'm calling fold from inside a new task, shouldn't I be doing a traverse?
     Extract mongo functions into module and import it here
     is mongoTask built like it ought?
+    Anything else?
 */
 const  
     {MongoClient} = require('mongodb'),
