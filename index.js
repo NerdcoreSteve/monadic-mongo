@@ -4,6 +4,7 @@ chain the whole sequence for the "Now I'm going to insert a collection (initiali
     May have to hand the db down the chain in a data structure that holds both result and db
         That way I can db.close in fork
     It bothers me that I'm calling fold from inside a new task, shouldn't I be doing a traverse?
+    Extract mongo functions into module and import it here
 */
 const  
     {MongoClient} = require('mongodb'),
